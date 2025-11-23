@@ -1,0 +1,64 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories
+vendor/
+node_modules/
+
+# Go workspace file
+go.work
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Build artifacts
+/dist/
+/build/
+
+# Coverage reports
+coverage.html
+coverage.out
+
+# Temporary files
+tmp/
+temp/
+
+# Database files (если используете файловую БД)
+*.db
+*.sqlite
+*.sqlite3
+

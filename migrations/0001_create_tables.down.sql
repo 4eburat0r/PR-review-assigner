@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS assignment_events;
+DROP TABLE IF EXISTS pr_reviewers;
+DROP TABLE IF EXISTS prs;
+DROP TABLE IF EXISTS team_members;
+DROP TABLE IF EXISTS users;
+DROP TABLE IF EXISTS teams;
+DROP TYPE IF EXISTS pr_status;
